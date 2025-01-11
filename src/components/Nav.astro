@@ -13,7 +13,7 @@ const i18n = getI18N({ currentLocale });
   </a>
   <div class="divider divider-horizontal m-0"></div>
   <ThemeButton />
-  <a class="btn btn-circle" href={currentLocale === 'es' ? '/en' : '/'}>
+  <a class="btn btn-circle" href={currentLocale === 'es' ? `${import.meta.env.BASE_URL}/en` : `${import.meta.env.BASE_URL}/`}>
     {i18n.NAV_LOCALE}
   </a>
 </nav>

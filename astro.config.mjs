@@ -21,4 +21,6 @@ export default defineConfig({
     })
   ],
   server: { port: 4322 },
+  site: 'https://merinojuan.github.io',
+  base: '/portfolio',
 });
