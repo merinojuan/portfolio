@@ -1,0 +1,19 @@
+---
+import ThemeButton from '@components/ThemeButton.astro';
+import Logo from '@components/Logo.astro';
+import { getI18N } from '@i18n/index';
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale });
+---
+
+<nav class="sticky top-4 flex justify-around justify-self-center w-60 text-center rounded-full backdrop-blur-md bg-base-100/30 z-10 mt-4 mx-auto p-4">
+  <a class="btn btn-circle" href="#">
+    <Logo class="h-6 w-6" />
+  </a>
+  <div class="divider divider-horizontal m-0"></div>
+  <ThemeButton />
+  <a class="btn btn-circle" href={currentLocale === 'es' ? '/en' : '/'}>
+    {i18n.NAV_LOCALE}
+  </a>
+</nav>

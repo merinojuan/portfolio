@@ -1,0 +1,29 @@
+---
+import Layout from '@layouts/Layout.astro';
+import Hero from '@components/Hero.astro';
+import Nav from '@components/Nav.astro';
+import PresentationCard from '@components/PresentationCard.astro';
+import Experience from '@components/Experience.astro';
+import Tools from '@components/Tools.astro';
+import { getI18N } from '@i18n/index';
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale });
+
+// const currentYear = new Date().getFullYear();
+---
+
+<Layout title="Portfolio | Merino Juan" description={i18n.SEO_DESCRIPTION}>
+  <main class="container mx-auto px-4">
+    <article>
+      <Hero />
+      <Nav />
+      <PresentationCard />
+      <Experience />
+      <Tools />
+    </article>
+  </main>
+  <!-- <footer class="text-center p-8">
+    {currentYear}
+  </footer> -->
+</Layout>

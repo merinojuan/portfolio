@@ -1,0 +1,14 @@
+{
+  "SEO_DESCRIPTION": "Hola! Soy Juan y esta es mi experiencia...",
+  "HERO_DESCRIPTION": "Hola, me llamo Juan y soy desarrollador de aplicaciones <span class=\"text-accent\">fullstack</span>.",
+  "NAV_LOCALE": "EN",
+  "PRESENTATION_CARD_POSITION": "Desarrollador Fullstack",
+  "EXPERIENCE_BASES": "Bases",
+  "EXPERIENCE_LONG": "Mucho tiempo de experiencia",
+  "EXPERIENCE_GOOD": "Buena experiencia",
+  "EXPERIENCE_LITTLE": "Poca experiencia",
+  "EXPERIENCE_TEST": "Sólo pequeñas pruebas",
+  "TOOLS_TITLE": "Este sitio fue creado con...",
+  "ERROR_404_DESCRIPTION": "¿Estás perdido?",
+  "ERROR_404_ACTION": "Volver al inicio"
+}

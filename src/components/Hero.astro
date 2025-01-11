@@ -1,0 +1,13 @@
+---
+import Quotes from '@components/Quotes.astro';
+import { getI18N } from '@i18n/index';
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale });
+---
+
+<section class="text-center mt-16 mx-auto md:max-w-xl">
+  <h1 class="text-responsive">
+    <Quotes class="inline-block align-text-top w-4 h-4 md:w-8 md:h-8" /><span set:html={i18n.HERO_DESCRIPTION}></span>
+  </h1>
+</section>
