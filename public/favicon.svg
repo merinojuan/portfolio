@@ -1,64 +1,57 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    width="48"
    height="48"
    viewBox="0 0 12.7 12.7"
    version="1.1"
-   id="svg5"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs2">
-    <linearGradient
-       xlink:href="#linearGradient1016"
-       id="linearGradient1018"
-       x1="-2.220446e-16"
-       y1="79.375"
-       x2="79.375"
-       y2="-2.220446e-16"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       id="linearGradient1016">
-      <stop
-         style="stop-color:#6366f1;stop-opacity:1"
-         offset="0"
-         id="stop1012" />
-      <stop
-         style="stop-color:#a855f7;stop-opacity:1"
-         offset="0.52639866"
-         id="stop4854" />
-      <stop
-         style="stop-color:#ec4899;stop-opacity:1"
-         offset="1"
-         id="stop1014" />
-    </linearGradient>
+>
+  <defs>
+      <linearGradient
+         xlink:href="#linearGradient1016"
+         id="linearGradient1018"
+         x1="-2.220446e-16"
+         y1="79.375"
+         x2="79.375"
+         y2="-2.220446e-16"
+         gradientUnits="userSpaceOnUse"
+      />
+      <linearGradient id="linearGradient1016">
+         <stop
+            style="stop-color:#6366f1;stop-opacity:1"
+            offset="0"
+         />
+         <stop
+            style="stop-color:#a855f7;stop-opacity:1"
+            offset="0.52639866"
+         />
+         <stop
+            style="stop-color:#ec4899;stop-opacity:1"
+            offset="1"
+         />
+      </linearGradient>
   </defs>
-  <g
-     id="layer1">
-    <g
-       id="g7377"
-       transform="scale(0.16)">
-      <rect
-         style="fill:url(#linearGradient1018);fill-opacity:1;stroke:none;stroke-width:2.37737;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         id="rect35177"
-         width="79.375"
-         height="79.375"
-         x="-2.220446e-16"
-         y="-2.220446e-16"
-         ry="0" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:42.9885px;line-height:1.25;font-family:monospace;-inkscape-font-specification:'monospace, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.07472"
-         x="21.723114"
-         y="71.538551"
-         id="text35936"><tspan
-           id="tspan35934"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:42.9885px;font-family:monospace;-inkscape-font-specification:'monospace, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.07472"
-           x="21.723114"
-           y="71.538551">JM</tspan></text>
-    </g>
+  <g>
+      <g transform="scale(0.16)">
+         <rect
+            style="fill:url(#linearGradient1018);fill-opacity:1;stroke:none;stroke-width:2.37737;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+            width="79.375"
+            height="79.375"
+            x="-2.220446e-16"
+            y="-2.220446e-16"
+            ry="0"
+         />
+         <text
+            xml:space="preserve"
+            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:42.9885px;line-height:1.25;font-family:monospace;-inkscape-font-specification:'monospace, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.07472"
+            x="21.723114"
+            y="71.538551"
+         >
+            <tspan
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:42.9885px;font-family:monospace;-inkscape-font-specification:'monospace, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.07472"
+               x="21.723114"
+               y="71.538551"
+            >JM</tspan>
+         </text>
+      </g>
   </g>
 </svg>

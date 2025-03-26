@@ -35,6 +35,7 @@ const socialsImage = `${basedOrigin}/socials.png`;
 		<title>{title}</title>
 	</head>
 	<body>
+		<div class="fixed top-0 z-[-2] h-screen w-full bg-[radial-gradient(#f0f0f0_1px,transparent_1px)] dark:bg-[radial-gradient(#292f35_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>
 		<slot />
 	</body>
 </html>
@@ -53,7 +54,7 @@ atroposes.forEach(atropos => {
   Atropos({
     el: atropos as HTMLElement,
     alwaysActive: true,
-    shadowScale: .6,
+    shadowScale: .5,
   });
 });
 

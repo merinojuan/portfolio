@@ -1,0 +1,27 @@
+---
+import GitHubLogo from '@logos/GitHubLogo.astro';
+
+interface Props {
+	name: string;
+	link: string;
+}
+
+const { name, link } = Astro.props;
+---
+
+<div class="card bg-base-200 w-48 ring-1 ring-gray-800/10 dark:ring-gray-200/5 text-center">
+  <div class="px-8 pt-8">
+    <slot name="app-logo" />
+  </div>
+  <div class="card-body justify-between items-center mt-4 p-4">
+    <h2 class="card-title tracking-tight">{name}</h2>
+    <div class="text-gray-500">
+      <slot name="tec-logos" />
+    </div>
+    <div class="card-actions mt-8">
+      <a href={link} target="_blank" class="btn btn-circle btn-ghost">
+        <GitHubLogo class="w-6" />
+      </a>
+    </div>
+  </div>
+</div>
